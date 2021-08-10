@@ -91,9 +91,9 @@ def run():
 
 def complete_game():
     time.sleep(1)
-    attempt_to_click_on2(pictures.cam, regions.accept, 'y')
+
     utilities.set_status('Waiting for game to start...')
-    attempt_to_click_on2(pictures.cam, regions.accept,'y')
+
     # Wait until recall is visible, then we know we're in game
     # while not attempt_to_click_on(pictures.recall, None, is_game=True, click=False) or attempt_to_click_on(pictures.cam, None, is_game=True, click=False):
     #     pause_if_needed()
@@ -142,7 +142,7 @@ def complete_game():
         attempt_to_click_on2(pictures.r, regions.accept, 'r', conf=0.3)
         attempt_to_click_on2(pictures.ghost, regions.accept, 'd', conf=0.3)
         attempt_to_click_on2(pictures.heal, regions.accept, 'f', conf=0.3)
-
+        attempt_to_click_on2(pictures.cam, regions.accept, 'y', conf=0.9)
         attempt_to_click_escape(pictures.care_turret, regions.accept, conf=0.30)
         attempt_to_click_escape(pictures.care_turret2, regions.accept, conf=0.3)
         attempt_to_click_escape(pictures.care_turret3, regions.accept, conf=0.3)
