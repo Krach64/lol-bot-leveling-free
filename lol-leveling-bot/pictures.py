@@ -48,6 +48,7 @@ care_turret4 = 'care_turret4.png'
 care_turret5 = 'care_turret5.png'
 care_turret6 = 'care_turret6.png'
 escape = 'escape.png'
+Ahri = 'Ahri.png'
 
 
 

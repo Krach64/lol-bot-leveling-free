@@ -26,7 +26,7 @@ import os
 ahk=AHK()
 # TODO: Allow user input for champions to play
 # Champion variables
-list_of_champs = [pictures.ashe, pictures.annie]
+list_of_champs = [pictures.ashe, pictures.Ahri]
 keyboard = Controller()
 
 def run():
