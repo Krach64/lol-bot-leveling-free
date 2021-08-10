@@ -15,3 +15,9 @@ I have just corrected issues and improve the behaviour of ashe in game
  8. Put your username and password
  9. Don't touch mouse and keyboard
  10. Enjoy the bot
+
+
+# Disclaimer
+
+This bot isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. It's only for educational purposes.
+League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
